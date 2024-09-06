@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.imagem-corvo {
+    max-width: 15%;
+    height: auto;
+}
+
+.imagem-leon {
+    max-width: 15%;
+    height: auto;
+}
+
+.imagem-spike{
+    max-width: 15%;
+    height: auto;
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    background-color: antiquewhite;
+    width: auto; /* Largura máxima da caixa de resultados */
+    height: 70vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento acima da caixa de resultados */
+}
+
